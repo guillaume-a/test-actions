@@ -2,7 +2,8 @@ name: Deploy
 
 run-name: Deployed by ${{ github.actor }}
 
-on: [push]
+on: 
+  branches: [push]
 
 jobs:
   web-deploy:
