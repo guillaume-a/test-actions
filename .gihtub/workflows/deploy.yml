@@ -4,7 +4,8 @@ run-name: Deployed by ${{ github.actor }}
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
     
 jobs:
   web-deploy:
